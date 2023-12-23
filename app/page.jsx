@@ -1,6 +1,13 @@
+'use client';
+import Card from '@components/card/Card';
+import { Section } from './home.styles';
+
 export default function Page() {
-    return ( <>
-    <h1>Hello, Next.js!</h1>
-    
-    </>)
-  }
+  return (
+    <>
+      <Section>
+        <Card></Card>
+      </Section>
+    </>
+  );
+}
