@@ -11,6 +11,12 @@ export const WelcomeCard = styled.div`
   margin: 23px;
   padding: 14px;
   border: 10px solid rgb(158, 71, 132);
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
   article {
     text-align: center;
@@ -45,6 +51,10 @@ export const ProfilePic = styled.div`
     border-radius: 50%;
     max-width: 220px;
     max-height: 220px;
+    box-shadow:
+      rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+      rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+      rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
   }
 `;
 export const CardContent = styled.div`

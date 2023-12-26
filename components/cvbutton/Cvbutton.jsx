@@ -5,7 +5,7 @@ const Cvbutton = () => {
   return (
     <>
       <CvButton>
-        <a href="Black White Minimalist CV Resume.pdf"> PDF </a>
+        <a href="Black White Minimalist CV Resume.pdf"> Look my CV </a>
       </CvButton>
     </>
   );

@@ -6,15 +6,14 @@ export const NavGrid = styled.div`
   border-radius: 5px;
   padding: 40px;
   display: flex;
-  /* flex-direction: row;
-  flex-wrap: nowrap; */
+  height: 20px;
   justify-content: space-around;
-  /* align-items: flex-end; */
+  align-items: center;
   align-content: center;
   background: linear-gradient(to right, rgb(55, 48, 107), rgb(158, 71, 132));
 `;
 export const NavLink = styled(Link)`
-  color: gray;
+  color: rgb(210, 118, 133);
   text-decoration: none;
   font-size: larger;
 `;
