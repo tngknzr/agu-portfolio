@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const CvButton = styled.a`
   margin-top: 5%;
+  margin-bottom: 2%;
   a {
     color: rgb(210, 118, 133);
     text-decoration: none;

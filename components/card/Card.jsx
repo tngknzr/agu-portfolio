@@ -4,13 +4,11 @@ import Cvbutton, { CvButton } from '@components/cvbutton/Cvbutton.jsx';
 const Card = () => {
   return (
     <WelcomeCard>
-      <ProfilePic>
-        <img className="profile-pic" src="elpity.jpeg" alt="profile-pic" />
-      </ProfilePic>
+      <h1>Full stack Web Developer</h1>
       <CardContent>
-        {/* <h1>Full Stack Web Developer</h1> */}
-        <h1>Full stack Web Developer</h1>
-
+        <ProfilePic>
+          <img className="profile-pic" src="elpity.jpeg" alt="profile-pic" />
+        </ProfilePic>
         <article>
           Hey there! I'm a passionate junior Full Stack Web Developer embarking on an exciting coding adventure. With an
           eagerness to learn and a love for turning ideas into code, I am motivated to grow and carve my path in the
@@ -20,8 +18,8 @@ const Card = () => {
           a step towards realizing my dream goal: working for Valve. Join me as I document my experiences, share my
           projects, and take strides towards creating something extraordinary. Let's code and learn together!
         </article>
-        <Cvbutton />
       </CardContent>
+      <Cvbutton />
     </WelcomeCard>
   );
 };
