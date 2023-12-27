@@ -10,7 +10,7 @@ export const WelcomeCard = styled.div`
   height: 50vh;
   margin: 23px;
   padding: 14px;
-  border: 10px solid rgb(158, 71, 132);
+  border: 3px solid rgb(158, 71, 132);
   box-shadow:
     rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px,
@@ -19,7 +19,8 @@ export const WelcomeCard = styled.div`
     rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
   article {
-    text-align: center;
+    text-align: left;
+    justify-content: center;
   }
 
   h1 {
@@ -27,6 +28,7 @@ export const WelcomeCard = styled.div`
     margin-bottom: 5%;
     /* margin-bottom: 100px; */
     text-transform: uppercase;
+
     /* margin-right: 25%; */
   }
   article {
@@ -40,9 +42,10 @@ export const WelcomeCard = styled.div`
 export const ProfilePic = styled.div`
   width: auto;
   height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+
+  margin-left: 70px;
+  /* display: flex;
+  justify-content: right; */
 
   img.profile-pic {
     justify-content: flex-start;
