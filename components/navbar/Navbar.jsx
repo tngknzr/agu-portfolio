@@ -3,14 +3,16 @@ import React from 'react';
 import Image from 'next/image';
 import { IconLink, NavGrid, NavLink } from './Navbar.styles';
 import { Logo } from '@components/logo/Logo.styles';
-
+import Link from 'next/link';
 const Navbar = () => {
   return (
     <NavGrid>
       {/* TODO: agregar flex contenedor para que quede pegado al margen izquiero */}
-      <NavLink href="/">
+      <Link href="/">
         <Logo>Agustin Paredes</Logo>
-      </NavLink>
+      </Link>
+      {/* <NavLink href="/"> */}
+      {/* </NavLink> */}
 
       {/* TODO: agregar un flex contenedor para que los dos iconos queden pegados al lado izq de la nav */}
       <IconLink>
