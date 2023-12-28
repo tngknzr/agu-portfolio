@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import Link from 'next/link';
 
 export const NavGrid = styled.div`
-  /* border: 4px solid rgb(158, 71, 132); */
   border-radius: 5px;
   padding: 14px;
   display: flex;
@@ -20,8 +19,7 @@ export const NavLink = styled(Link)`
   transition: all 0.3s ease;
 
   &:hover {
-    /* background-color: rgb(65, 58, 127); */
-    transform: scale(1.05); /* Increase size on hover */
+    transform: scale(1.05);
     border-radius: 10px;
     padding: 7px;
     box-shadow:
@@ -29,8 +27,7 @@ export const NavLink = styled(Link)`
       rgba(0, 0, 0, 0.22) 0px 10px 10px;
   }
   &:active {
-    /* background-color: rgb(45, 38, 87); */
-    transform: scale(0.95); /* Decrease size on click */
+    transform: scale(0.95);
     border-radius: 10px;
     padding: 7px;
     box-shadow:
@@ -43,7 +40,6 @@ export const IconLink = styled.div`
   flex-direction: row;
   align-content: center;
   justify-content: space-around;
-  /* border: 3px solid red; */
   width: 10%;
   margin-right: 14px;
 `;

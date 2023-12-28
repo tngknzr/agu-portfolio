@@ -26,15 +26,13 @@ export const WelcomeCard = styled.div`
   h1 {
     color: rgb(210, 118, 133);
     margin-bottom: 5%;
-    /* margin-bottom: 100px; */
-    text-transform: uppercase;
 
-    /* margin-right: 25%; */
+    text-transform: uppercase;
   }
   article {
     color: white;
     max-width: 450px;
-    /* margin-bottom: 15%; */
+
     font-size: 1.1em;
   }
 `;
@@ -43,13 +41,11 @@ export const ProfilePic = styled.div`
   width: auto;
   height: auto;
 
-  /* margin-left: 70px; */
-
   img.profile-pic {
     justify-content: flex-start;
     width: 100%;
     height: auto;
-    /* margin-right: 50px; */
+
     border-radius: 50%;
     max-width: 220px;
     max-height: 220px;
@@ -67,7 +63,6 @@ export const CardContent = styled.div`
   height: 100%;
   width: 90%;
   margin-right: 130px;
-  /* border: solid red 2px; */
+
   padding: 0;
-  /* z-index: 200; */
 `;
