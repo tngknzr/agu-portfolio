@@ -7,7 +7,6 @@ export default function Page() {
     <>
       <Section>
         <Card></Card>
-        {/* <Myprojects></Myprojects> */}
       </Section>
     </>
   );
