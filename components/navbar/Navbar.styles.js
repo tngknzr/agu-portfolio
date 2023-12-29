@@ -10,7 +10,7 @@ export const NavGrid = styled.div`
   justify-content: space-between;
   align-items: center;
   align-content: center;
-  background: linear-gradient(to right, rgb(55, 48, 107), rgb(158, 71, 132));
+  background: linear-gradient(to right, rgb(85, 85, 85), rgb(192, 192, 192));
 `;
 export const NavLink = styled(Link)`
   color: rgb(210, 118, 133);

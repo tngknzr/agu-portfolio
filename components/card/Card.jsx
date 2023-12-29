@@ -1,24 +1,36 @@
 import React from 'react';
-import { CardContent, ProfilePic, WelcomeCard } from './Card.styles';
+import { ArticleContent, CardContent, ProfilePic, WelcomeCard } from './Card.styles';
 import Cvbutton, { CvButton } from '@components/cvbutton/Cvbutton.jsx';
+
 const Card = () => {
   return (
     <WelcomeCard>
       <h1>Full stack Web Developer</h1>
       <CardContent>
         <ProfilePic>
-          <img className="profile-pic" src="elpity.jpeg" alt="profile-pic" />
+          <img className="profile-pic" src="agupic.jpg" alt="profile-pic" />
         </ProfilePic>
-        <article>
-          Hey there! I'm a passionate entry level Full Stack Web Developer embarking on an exciting coding adventure.
-          With an eagerness to learn and a love for turning ideas into code, I am motivated to grow and carve my path in
-          the vast world of web development. My journey is fueled by creativity and a relentless desire to build
-          meaningful and innovative solutions. As a junior developer, I'm excited to overcome challenges, learn new
-          technologies, and collaborate on exciting projects. I'm currently on the lookout for my first job, and every
-          line of code is a step towards realizing my dream goal: working for Valve. Join me as I document my
-          experiences, share my projects, and take strides towards creating something extraordinary. Let's code and
-          learn together!
-        </article>
+        <ArticleContent>
+          <article>
+            Hey there! I'm fresh out of a rigorous boot camp with Ironhack, where I delved into the world of web
+            development. I've gained hands-on experience with a stack that includes JavaScript, CSS, React, MongoDB,
+            Mongoose, Node.js, DOM manipulation, Canvas, Postman, and Axios. My GitHub is loaded with various projects,
+            and I invite you to take a look at what I've been building.
+          </article>
+          <br />
+          <article>
+            I am currently seeking opportunities to embark on my professional journey as a web developer. I bring to the
+            table attributes such as effective teamwork, a strong sense of responsibility, and a commitment to
+            continuous self-improvement through ongoing education. My decision to pursue this field stems from a genuine
+            enthusiasm for overcoming challenges, and I am eager to apply my skills in a practical business context.
+          </article>
+          <br />
+          <article>
+            I appreciate your time in considering my application and am eager to contribute my skills and dedication to
+            your team. I'm excited about the prospect of joining your company and contributing to its success. Thanks
+            for this opportunity, and I'm looking forward to the possibility of working together!
+          </article>
+        </ArticleContent>
       </CardContent>
       <Cvbutton />
     </WelcomeCard>
