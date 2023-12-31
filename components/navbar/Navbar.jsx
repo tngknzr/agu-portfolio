@@ -2,7 +2,6 @@
 import React from 'react';
 import Image from 'next/image';
 import { IconLink, NavGrid, NavLink } from './Navbar.styles';
-import { Logo } from '@components/logo/Logo.styles';
 import Link from 'next/link';
 const Navbar = () => {
   return (

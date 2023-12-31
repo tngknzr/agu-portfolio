@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-  /* background: #e8e0d3; */
-  /* background-color: rgb(192, 192, 192); */
   background: hsla(209, 72%, 72%, 1);
 
   background: linear-gradient(135deg, hsla(209, 72%, 72%, 1) 1%, hsla(0, 0%, 100%, 1) 100%);
