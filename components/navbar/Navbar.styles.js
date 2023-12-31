@@ -10,10 +10,22 @@ export const NavGrid = styled.div`
   justify-content: space-between;
   align-items: center;
   align-content: center;
-  background: linear-gradient(to right, rgb(85, 85, 85), rgb(192, 192, 192));
+  /* background-color: transparent !important; */
+  background: hsla(209, 72%, 72%, 1);
+
+  background: linear-gradient(135deg, hsla(209, 72%, 72%, 1) 1%, hsla(0, 0%, 100%, 1) 100%);
+
+  background: -moz-linear-gradient(135deg, hsla(209, 72%, 72%, 1) 1%, hsla(0, 0%, 100%, 1) 100%);
+
+  background: -webkit-linear-gradient(135deg, hsla(209, 72%, 72%, 1) 1%, hsla(0, 0%, 100%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#82B8EB", endColorstr="#FFFFFF", GradientType=1 );
+  /* background: #a98467; */
+  color: #1b150d;
+
+  /* background: linear-gradient(to right, rgba(87, 33, 183, 1), rgba(214, 104, 205, 1)); */
 `;
 export const NavLink = styled(Link)`
-  color: rgb(210, 118, 133);
   text-decoration: none;
   font-size: larger;
   transition: all 0.3s ease;

@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const WelcomeCard = styled.div`
-  background-color: rgb(102, 52, 127);
+  /* background-color: rgb(102, 52, 127); */
+  background: #82b8eb;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,7 +11,7 @@ export const WelcomeCard = styled.div`
   height: 70vh;
   margin: 23px;
   padding: 30px;
-  border: 3px solid rgb(158, 71, 132);
+  /* border: 3px solid rgb(158, 71, 132); */
   box-shadow:
     rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px,
@@ -26,7 +27,8 @@ export const WelcomeCard = styled.div`
   }
 
   h1 {
-    color: rgb(210, 118, 133);
+    color: black;
+    letter-spacing: 10px;
     /* margin-bottom: 5%; */
     font-size: xx-large;
     width: auto;
@@ -76,7 +78,7 @@ export const ArticleContent = styled.div`
   height: 70%;
 
   article {
-    color: wheat;
+    color: black;
     width: 100%;
     /* border: solid 2px pink; */
     font-size: larger;
