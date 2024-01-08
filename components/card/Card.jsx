@@ -17,7 +17,6 @@ const Card = () => {
             width={1000}
             height={1300}
           ></Image>
-          {/* <img className="profile-pic" src="agupic_1000.jpg" alt="profile-pic" /> */}
         </ProfilePic>
         <ArticleContent>
           <article>
