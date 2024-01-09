@@ -1,22 +1,22 @@
 import React from 'react';
 import { ArticleContent, CardContent, ProfilePic, WelcomeCard } from './Card.styles';
 import CvButton from '@components/cvbutton/Cvbutton.jsx';
-// import Image from 'next/image';
-
+import Image from 'next/image';
+import agusCv from '/public/agupicopti.jpg';
 const Card = () => {
   return (
     <WelcomeCard>
       <h1>Full stack Web Developer</h1>
       <CardContent>
         <ProfilePic>
-          {/* <Image
+          <Image
             className="profile-pic"
-            src="/agupic_1000.jpg"
+            src={agusCv}
             alt="profile-pic"
             loading="eager"
             width={1000}
             height={1300}
-          ></Image> */}
+          ></Image>
         </ProfilePic>
         <ArticleContent>
           <article>
