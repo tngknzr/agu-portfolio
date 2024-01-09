@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArticleContent, CardContent, ProfilePic, WelcomeCard } from './Card.styles';
 import Cvbutton, { CvButton } from '@components/cvbutton/Cvbutton.jsx';
+import Image from 'next/image';
 
 const Card = () => {
   return (
@@ -8,7 +9,14 @@ const Card = () => {
       <h1>Full stack Web Developer</h1>
       <CardContent>
         <ProfilePic>
-          <img className="profile-pic" src="agupic.jpg" alt="profile-pic" />
+          <Image
+            className="profile-pic"
+            src="/agupic_1000.jpg"
+            alt="profile-pic"
+            loading="eager"
+            width={1000}
+            height={1300}
+          ></Image>
         </ProfilePic>
         <ArticleContent>
           <article>
