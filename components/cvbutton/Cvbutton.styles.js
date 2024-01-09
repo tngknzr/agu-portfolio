@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const CvButton = styled.button`
+export const CtaButton = styled.button`
   a {
     color: rgb(0, 0, 0);
     text-decoration: none;

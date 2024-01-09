@@ -1,14 +1,15 @@
 import Link from 'next/link';
 import React from 'react';
-import { CvButton } from './Cvbutton.styles';
-const Cvbutton = () => {
+import { CtaButton } from './Cvbutton.styles';
+
+const CvButton = () => {
   return (
     <>
-      <CvButton>
-        <a href="webdevCV.pdf"> Look my Resume </a>
-      </CvButton>
+      <CtaButton>
+        <Link href="webdevCV.pdf"> Look my Resume </Link>
+      </CtaButton>
     </>
   );
 };
 
-export default Cvbutton;
+export default CvButton;

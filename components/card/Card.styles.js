@@ -39,7 +39,7 @@ export const ProfilePic = styled.div`
   width: 20%;
   height: auto;
 
-  img.profile-pic {
+  /* img.profile-pic {
     justify-content: flex-start;
     width: 100%;
     height: 100%;
@@ -51,7 +51,7 @@ export const ProfilePic = styled.div`
       rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
       rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
       rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-  }
+  } */
 `;
 export const CardContent = styled.div`
   display: flex;
