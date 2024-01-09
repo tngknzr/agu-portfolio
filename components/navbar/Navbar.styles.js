@@ -11,17 +11,16 @@ export const NavGrid = styled.div`
   align-items: center;
   align-content: center;
   /* background-color: transparent !important; */
-  background: hsla(209, 72%, 72%, 1);
+  background: white;
 
-  background: linear-gradient(135deg, hsla(209, 72%, 72%, 1) 1%, hsla(0, 0%, 100%, 1) 100%);
+  /* background: linear-gradient(135deg, hsla(209, 72%, 72%, 1) 1%, hsla(0, 0%, 100%, 1) 100%);
 
   background: -moz-linear-gradient(135deg, hsla(209, 72%, 72%, 1) 1%, hsla(0, 0%, 100%, 1) 100%);
 
   background: -webkit-linear-gradient(135deg, hsla(209, 72%, 72%, 1) 1%, hsla(0, 0%, 100%, 1) 100%);
 
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#82B8EB", endColorstr="#FFFFFF", GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#82B8EB", endColorstr="#FFFFFF", GradientType=1 ); */
   /* background: #a98467; */
-  color: #1b150d;
 
   /* background: linear-gradient(to right, rgba(87, 33, 183, 1), rgba(214, 104, 205, 1)); */
 `;
