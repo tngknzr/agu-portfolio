@@ -28,7 +28,6 @@ export const WelcomeCard = styled.div`
   h1 {
     color: black;
     letter-spacing: 10px;
-
     font-size: xx-large;
     width: auto;
     text-transform: uppercase;
@@ -39,20 +38,19 @@ export const ProfilePic = styled.div`
   width: 20%;
   height: auto;
 
-  /* img.profile-pic {
+  img.profile-pic {
     justify-content: flex-start;
     width: 100%;
     height: 100%;
-
     object-fit: cover;
     border-radius: 50%;
-
     box-shadow:
       rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
       rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
       rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-  } */
+  }
 `;
+
 export const CardContent = styled.div`
   display: flex;
   justify-content: space-around;
@@ -62,6 +60,7 @@ export const CardContent = styled.div`
   height: 80%;
   width: 90%;
 `;
+
 export const ArticleContent = styled.div`
   display: flex;
   flex-direction: column;
@@ -74,7 +73,6 @@ export const ArticleContent = styled.div`
   article {
     color: black;
     width: 100%;
-
     font-size: larger;
   }
 `;
