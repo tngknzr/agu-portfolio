@@ -1,15 +1,8 @@
 import styled from 'styled-components';
 
-// export const FooterBar = styled.div`
-//   width: 100vw;
-//   height: fit-content;
-//   display: block;
-//   border: red solid 2px;
-
-// `;
-
 export const Wrapper = styled.div`
-  padding: 28rem 0 4rem 0;
+  width: 100vw;
+  height: 15vh;
   background: hsla(209, 72%, 72%, 1);
   background-image: url(./blue-42596.svg);
   background-size: cover;
@@ -21,8 +14,6 @@ export const Wrapper = styled.div`
   }
 `;
 export const Flex = styled.div`
-  display: flex;
-  align-items: flex-end;
   justify-content: space-between;
 
   @media (max-width: 680px) {
@@ -49,10 +40,17 @@ export const LinksContainer = styled.div`
 `;
 
 export const Details = styled.div`
-  h2,
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  h2 {
+    margin-top: 36px;
+  }
+
   a,
   span {
-    color: red;
+    color: black;
   }
   @media (max-width: 680px) {
     margin-bottom: 2rem;
