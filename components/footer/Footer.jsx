@@ -1,13 +1,27 @@
 import React from 'react';
-import { FooterBar } from './Footer.styles';
+import { Details, Flex, FooterBar, Wrapper } from './Footer.styles';
 import Image from 'next/image';
+import { SocialLinks } from '@components/socialLinks/SocialLinks';
+import { Container } from '@components/common/container/Container.styles';
 
-const Footer = () => {
-  return (
-    <FooterBar>
-      <Image src="blue-42596.svg" width={2200} height={300} loading="eager" alt="" />
-    </FooterBar>
-  );
-};
+// const Footer = () => {
+//   return (
+//     <FooterBar>
+//     </FooterBar>
+//   );
+// };
 
-export default Footer;
+// export default Footer;
+
+export const Footer = () => (
+  <Wrapper>
+    <Flex as={Container}>
+      <Details>
+        <h4>Agustin Paredes</h4>
+
+        <SocialLinks />
+        <span>Lorem ipsum, dolor sit amet consectetur {new Date().getFullYear()} | Made with Next JS.</span>
+      </Details>
+    </Flex>
+  </Wrapper>
+);
