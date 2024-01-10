@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "name": "Email",
+    "link": "mailto:agustinparedes95@gmail.com",
+    "icon": "/email.svg"
+  },
+  {
+    "id": 1,
+    "name": "Github",
+    "link": "https://github.com/tngknzr",
+    "icon": "/github.svg"
+  },
+  {
+    "id": 2,
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/agustin-paredes-izquierdo-883417203/",
+    "icon": "/linkedin.svg"
+  }
+]

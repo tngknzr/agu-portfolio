@@ -1,13 +1,16 @@
 import React from 'react';
-import { FooterBar } from './Footer.styles';
-import Image from 'next/image';
+import { Details, Flex, Wrapper } from './Footer.styles';
+import { SocialLinks } from '@components/socialLinks/SocialLinks';
+import { Container } from '@components/common/container/Container.styles';
 
-const Footer = () => {
-  return (
-    <FooterBar>
-      <Image src="blue-42596.svg" width={2200} height={300} loading="eager" alt="" />
-    </FooterBar>
-  );
-};
-
-export default Footer;
+export const Footer = () => (
+  <Wrapper>
+    <Flex as={Container}>
+      <Details>
+        <h2>Agustin Paredes</h2>
+        <SocialLinks />
+        <span>Solutions hunter {new Date().getFullYear()} | Made with Next JS.</span>
+      </Details>
+    </Flex>
+  </Wrapper>
+);
